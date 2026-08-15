@@ -1,26 +1,77 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-sand-50: #faf8f4;
+  --color-sand-100: #f5f0e8;
+  --color-sand-200: #ede3d0;
+  --color-sand-300: #dfd0b4;
+  --color-sand-400: #cdb890;
+  --color-sand-500: #bfa070;
+
+  --color-bark-50: #f7f2ec;
+  --color-bark-100: #ede0cc;
+  --color-bark-200: #d4bc9a;
+  --color-bark-300: #b89368;
+  --color-bark-400: #9a7248;
+  --color-bark-500: #7d5630;
+  --color-bark-600: #6b4727;
+  --color-bark-700: #58391f;
+  --color-bark-800: #3e2810;
+  --color-bark-900: #271806;
+
+  --color-denim-50: #eef2f7;
+  --color-denim-100: #d4dfe9;
+  --color-denim-200: #a9bfd3;
+  --color-denim-300: #7e9fbd;
+  --color-denim-400: #547fa7;
+  --color-denim-500: #3a6080;
+  --color-denim-600: #2d4d66;
+  --color-denim-700: #203a4d;
+  --color-denim-800: #142533;
+  --color-denim-900: #0a1520;
+
+  --color-sage-50: #f2f5f0;
+  --color-sage-100: #dfe8d9;
+  --color-sage-200: #bfd1b3;
+  --color-sage-300: #9fb98d;
+  --color-sage-400: #7fa267;
+  --color-sage-500: #628a4c;
+  --color-sage-600: #4f6f3d;
+
+  --color-cream: #f9f5ee;
+  --color-parchment: #f0e8d6;
+  --color-leather: #8b5e3c;
+  --color-rust: #a0522d;
+  --color-charcoal: #2c2416;
+
+  --font-serif: var(--font-playfair);
+  --font-sans: var(--font-inter);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-charcoal);
+    font-family: var(--font-sans), system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-serif), Georgia, serif;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+  .font-serif {
+    font-family: var(--font-serif), Georgia, serif;
+  }
+  .font-sans {
+    font-family: var(--font-sans), system-ui, sans-serif;
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
 }
