@@ -13,7 +13,7 @@ export interface Product {
 }
 
 export const categories = [
-  { name: "Boots", slug: "boots", image: "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=400&q=80" },
+  { name: "Boots", slug: "boots", image: "https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=400&q=80" },
   { name: "Denim", slug: "denim", image: "https://images.unsplash.com/photo-1582418702059-97ebafb35d09?w=400&q=80" },
   { name: "Leather", slug: "leather", image: "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=400&q=80" },
   { name: "Home", slug: "home", image: "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=400&q=80" },
