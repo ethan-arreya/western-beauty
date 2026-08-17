@@ -13,7 +13,7 @@ export default function Hero() {
           playsInline
           className="w-full h-full object-cover object-center opacity-60"
         >
-          <source src="/Mother_and_child_walking_prairie_202608142307.mp4" type="video/mp4" />
+          <source src="/Mother_and_child_walking_prairie_202608162027.mp4" type="video/mp4" />
         </video>
         {/* Gradient overlay — darkens the left side for text legibility */}
         <div className="absolute inset-0 bg-gradient-to-r from-[#2c2416]/80 via-[#2c2416]/40 to-transparent" />
