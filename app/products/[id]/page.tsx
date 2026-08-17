@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: PageProps) {
   const product = products.find((p) => p.id === id);
   if (!product) return {};
   return {
-    title: `${product.name} — Prairie & Co.`,
+    title: `${product.name} — Southern & Spur`,
     description: product.description,
   };
 }

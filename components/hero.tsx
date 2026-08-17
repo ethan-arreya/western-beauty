@@ -61,7 +61,7 @@ export default function Hero() {
 
         {/* Logo badge */}
         <div className="hidden lg:flex absolute right-8 bottom-0 translate-y-1/2 w-32 h-32 rounded-full border border-[#cdb890]/40 bg-[#2c2416]/70 backdrop-blur-sm items-center justify-center flex-col">
-          <span className="font-serif text-[10px] tracking-[0.3em] text-[#cdb890] uppercase">P&amp;Co</span>
+          <span className="font-serif text-[10px] tracking-[0.3em] text-[#cdb890] uppercase">S&amp;S</span>
           <div className="w-8 border-t border-[#cdb890]/40 my-1.5" />
           <span className="text-[8px] tracking-[0.2em] text-[#9a7248] uppercase">Est. 2021</span>
         </div>

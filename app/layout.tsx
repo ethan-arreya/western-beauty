@@ -19,7 +19,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Prairie & Co. — Western Reimagined",
+  title: "Southern & Spur — Western Reimagined",
   description:
     "Timeless western pieces for modern women. Boots, denim, leather goods, and accessories crafted to last.",
 };

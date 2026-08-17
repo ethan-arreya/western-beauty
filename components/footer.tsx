@@ -16,7 +16,7 @@ export default function Footer() {
           <div className="col-span-2 lg:col-span-1">
             <div className="mb-4">
               <p className="font-serif text-2xl tracking-widest uppercase text-[#f0e8d6]">
-                Prairie & Co.
+                Southern & Spur
               </p>
               <p className="text-[9px] uppercase tracking-[0.3em] text-[#cdb890] mt-1">
                 Est. 2021
@@ -55,7 +55,7 @@ export default function Footer() {
       <div className="border-t border-[#3e2810]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-[#7d5630]">
-            © 2026 Prairie & Co. All rights reserved.
+            © 2026 Southern & Spur. All rights reserved.
           </p>
           <div className="flex gap-5">
             {["Privacy Policy", "Terms of Service"].map((item) => (

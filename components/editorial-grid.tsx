@@ -117,7 +117,7 @@ export default function EditorialGrid() {
           {/* Row 3 — brand tile */}
           <div className="hidden lg:flex bg-[#8b5e3c] rounded-sm p-8 flex-col items-center justify-center text-center min-h-[260px]">
             <p className="font-serif text-2xl tracking-widest text-[#f0e8d6] uppercase mb-1">
-              Prairie & Co.
+              Southern & Spur
             </p>
             <div className="w-10 border-t border-[#f0e8d6]/30 my-3" />
             <p className="text-[9px] uppercase tracking-[0.25em] text-[#f0e8d6]/60">

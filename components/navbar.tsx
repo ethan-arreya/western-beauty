@@ -46,7 +46,7 @@ export default function Navbar() {
           <Link href="/" className="absolute left-1/2 -translate-x-1/2">
             <div className="flex flex-col items-center leading-none">
               <span className="font-serif text-xl lg:text-2xl tracking-widest text-[#2c2416] uppercase">
-                Prairie & Co.
+                Southern & Spur
               </span>
               <span className="text-[9px] uppercase tracking-[0.3em] text-[#9a7248] mt-0.5">
                 Est. 2021
